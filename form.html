@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form page</title>
+    <link rel="stylesheet" href="css/form.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  </head>
+  <body>
+    <div class="parent">
+      <!-- career objective -->
+      <div class="career">
+        <h1>Career objective</h1>
+        <label for="career">
+        <input type="text" name="career" id="career" placeholder="Career Objective">
+        </label>
+      </div>
+      <!-- Personal Info -->
+      <div class="details">
+        <h1>Personal Details</h1>
+
+        <input type="text" name="Name" id="name" placeholder="Enter Name">
+        <input type="text" name="Address" id="address" placeholder="Enter address">
+        <input type="text" name="Mobile" id="mobileno" placeholder="Enter mobileno">
+        <input type="text" name="mail" id="mailid" placeholder="Enter mailid">
+      </div>
+<!-- Educational Details -->
+
+<div class="details">
+<h1>Graduation Details</h1>
+   <label for="ginst">
+     <select id="ginst" >
+       <option>Select Institute</option>
+       <option>MITS</option>
+       <option>Vishwam</option>
+       <option>Aditya</option>
+       <option>GVC</option>
+     </select>
+   </label>
+   <!-- branch -->
+   <select id="gbranch">
+     <option>Select branch</option>
+     <option>CSE</option>
+     <option>ECE</option>
+     <option>CIVIL</option>
+     <option>MECH</option>
+
+   </select>
+   <!-- Year Of Passing -->
+   <select id="yop">
+     <option>Select Year</option>
+     <option>2020</option>
+     <option>2021</option>
+     <option>2022</option>
+  </select>
+
+<!-- percentage -->
+<input type="text" name="percentage" id="gper" placeholder="Enter percentage">
+      </div>
+      <!-- Intermediate -->
+      <div class="details">
+      <h1>Intermediate Details</h1>
+         <label for="inter">
+           <select id="inter" >
+             <option>Select Institute</option>
+             <option>Chaitanya</option>
+             <option>Narayana</option>
+             <option>NRI</option>
+           </select>
+         </label>
+         <!-- branch -->
+         <select id="ibranch">
+           <option>Select branch</option>
+           <option>MPC</option>
+           <option>BIPC</option>
+           <option>MEC</option>
+           <option>CEC</option>
+
+         </select>
+         <!-- Year Of Passing -->
+         <select id="yop">
+           <option>Select Year</option>
+           <option>2015</option>
+           <option>2016</option>
+           <option>2017</option>
+        </select>
+        <input type="text" name="percentage" id="iper" placeholder="Enter percentage">
+        </div>
+        <!-- SSC -->
+        <div class="details">
+        <h1>SSC Details</h1>
+           <label for="ssc">
+             <select id="ssc" >
+               <option>Select Institute</option>
+               <option>Chaitanya</option>
+               <option>Narayana</option>
+               <option>Vignana Deepthi</option>
+             </select>
+           </label>
+           <!-- branch -->
+           <select id="sbranch">
+             <option>Select branch</option>
+             <option>CBSE</option>
+             <option>CENTRAL</option>
+             <option>STATE</option>
+             <option>ICSE</option>
+
+           </select>
+           <!-- Year Of Passing -->
+           <select id="yop">
+             <option>Select Year</option>
+             <option>2015</option>
+             <option>2014</option>
+             <option>2013</option>
+          </select>
+          <input type="text" name="percentage" id="sper" placeholder="Enter percentage">
+          </div>
+    <!-- Skills -->
+          <div class="skills">
+            <h1>Skills</h1>
+            <label for="skills">
+            <input type="text" name="skills" id="skills" placeholder="Skills">
+            </label>
+          </div>
+             </div>
+          <button type="button" name="button" id="button" onclick="submitData()">SUBMIT</button>
+
+  </body>
+</html>
+<script type="text/javascript"src="js/main.js">
+
+</script>

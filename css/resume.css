@@ -1,0 +1,58 @@
+body{
+  background: teal;
+}
+.parent{
+  background: violet;
+  display: flex;
+  margin: 1%;
+  padding: 1%;
+  justify-content: space-around;
+}
+.left
+{
+  background: lightgreen;
+  text-align: center;
+  margin: 1%;
+  padding: 1%;
+  width: 30%;
+  border: 2px;
+  border-radius: 2px solid maroon;
+}
+.right{
+  background: lightgreen;
+  margin: 1%;
+  padding: 1%;
+  width: 55%;
+  border: 2px;
+  border-radius: 2px solid maroon;
+}
+img{
+  width: 100%;
+}
+table{
+  width:100%;
+}
+table th,td{
+  border: 2px solid gray;
+}
+
+@media screen and (max-width:766px) {
+  .parent{
+    flex-wrap: wrap;
+  }
+  .left,.right{
+    width: 100%;
+  }
+
+}
+  @media screen and (min-width:768px) and (max-width:1023px) {
+    .parent{
+      background: teal;
+      flex-wrap: wrap;
+
+    }
+    .left{
+  width: 50%;
+}
+
+}

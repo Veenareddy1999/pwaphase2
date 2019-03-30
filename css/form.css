@@ -1,0 +1,50 @@
+body{
+  background: pink;
+  text-align: center;
+}
+.parent{
+  width: 100%;
+  border: 2px solid maroon;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.career{
+  background: lightgreen;
+  width: 90%;
+  border: 2px solid maroon;
+  text-align: center;
+  margin:2%;
+  padding: 2%;
+}
+.details{
+  text-align: center;
+  background: lightgreen;
+  width:40%;
+  border:2px solid maroon;
+  margin:2%;
+  padding: 2%;
+}
+.skills{
+  text-align: center;
+  background: lightgreen;
+  width:90%;
+  border:2px solid maroon;
+  margin: 2%;
+  padding: 2%;
+
+}
+#button{
+  font-weight: bold;
+  font-size: 25px;
+  /* float: right; */
+  background: orange;
+  font-style: oblique;
+  margin: 2%;
+
+}
+input,select{
+  width: 80%;
+  margin: 2%;
+}
+}
